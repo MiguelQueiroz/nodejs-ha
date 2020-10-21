@@ -11,7 +11,7 @@ npm install
 
 # Copy data for add-on
 COPY run.sh /
-COPY gulpfile.js /
+#COPY gulpfile.js /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
